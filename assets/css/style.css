@@ -576,6 +576,9 @@ img{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
 }
+.contact__title a{
+  color: black;
+}
 
 .contact__subtitle{
   font-size: var(--small-font-size);
@@ -600,14 +603,17 @@ img{
   padding-top: 2rem;
 }
 .footer__conteiner{
-  row-gap: 3.5rem;
+  row-gap: 3rem;
 }
 
 .footer__bg{
   background-color: var(--first-color-second);
   padding: 2rem 0 2rem;
 }
-
+footer ul li{
+  width: 6rem;
+  text-align: center;
+}
 .footer__title{
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
@@ -694,6 +700,7 @@ img{
     .about__conteiner, .skills__container,
     .contact__container, .footer__container{
         grid-template-columns: repeat(2, 1fr);
+        margin: 0;
     }
 
     .formacion__sections{
@@ -701,6 +708,12 @@ img{
         grid-template-columns: .6fr;
         justify-content: center;
         margin: 15px;
+    }
+    .contact__container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0;
     }
     .footer__links{
       align-items: center;
@@ -718,7 +731,7 @@ img{
     }
 
     .section{
-        padding: 4rem 0 2rem;
+        padding: 2rem 0 2rem;
     }
 
     .section__subtitle{
@@ -789,7 +802,18 @@ img{
     .formacion__sections{
         grid-template-columns: .5fr;
     }
+    .portfolio__content{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
 
+    .portfolio__container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: auto;
+      margin-left: auto;
+    }
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
     }
