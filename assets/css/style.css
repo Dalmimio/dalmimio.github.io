@@ -541,11 +541,19 @@ img{
 .portfolio__content{
   padding: 0 1.5rem;
   margin: 2rem;
+  display: flex;
+}
+.portfolio__data{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
 }
 .portfolio__img{
   width: 265px;
+  height: 150px;
   border-radius: .5rem;
-  justify-self: cener;
+  justify-self: center;
 }
 
 .portfolio__title{
@@ -558,7 +566,10 @@ img{
   justify-self: center;
   margin-bottom: var(--mb-0-75);
 }
-
+.portfolio__button{
+  width: 50%;
+  margin-top: 1rem;
+}
 .portfolio__button:hover{
   transform: translateX(.5rem);
 }
