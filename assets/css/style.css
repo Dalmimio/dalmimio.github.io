@@ -366,7 +366,9 @@ img{
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
+
 }
+
 
 .accordion-item{
   border: none;
@@ -377,6 +379,7 @@ img{
   align-items: center;
   margin-bottom: var(--mb-0-5);
   cursor: pointer;
+  padding: 2rem;
 }
 
 .skills__icon, .skills__arrow{
@@ -434,22 +437,15 @@ img{
 }
 
 .skills__html{
-  width: 30%;
+  width: 50%;
 }
 
 .skills__css{
-  width: 30%;
+  width: 50%;
 }
 
 .skills__js{
-  width: 2%;
-}
-
-.skills__java{
-  width: 30%;
-}
-.skills__node{
-  width: 30%;
+  width: 20%;
 }
 
 .skills__photo{
@@ -458,6 +454,9 @@ img{
 
 .skills__spark{
   width: 50%;
+}
+.skills__java{
+  width: 25%;
 }
 
 /*==================== FORMACION ====================*/
@@ -591,26 +590,12 @@ img{
   grid-row-end: span 4;
 }
 
-.contact__label{
-  font-size: var(--smaller-font-size);
-  color: var(--title-color);
-}
-
-.contact__input{
-  width: 100%;
-  background-color: var(--input-color);
-  color: var(--text-color);
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  border: none;
-  outline: none;
-  padding: .25rem .5rem .5rem 0;
-}
 
 
 
 
 /*==================== FOOTER ====================*/
+
 .footer{
   padding-top: 2rem;
 }
@@ -620,7 +605,7 @@ img{
 
 .footer__bg{
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 2rem;
 }
 
 .footer__title{
@@ -649,18 +634,12 @@ img{
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: var(--first-color-lighter);
   margin-top: var(--mb-3);
 }
 .footer__title, .footer__subtitle,
 .footer__link, .footer__social{
   color: #FFF;
-}
-
-/*==================== EXITOSO ====================*/
-
-.saludoexito{
-  font-size: var(--h1-font-size);
 }
 
 
